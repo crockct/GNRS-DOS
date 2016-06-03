@@ -1,4 +1,5 @@
 #!/bin/bash
+OUT=$"/root/mf/gnrs/jserver/rock-configs/baseline/net-ipv4.xml"
 BEFORE_IP=$"<edu.rutgers.winlab.mfirst.net.ipv4udp.Configuration>
 <!-- Port number for incoming UDP packets -->\n
   <bindPort>5000</bindPort>\n
@@ -11,5 +12,5 @@ AFTER_IP=$"</bindAddress>\n
   <asynchronousWrite>false</asynchronousWrite>\n
 </edu.rutgers.winlab.mfirst.net.ipv4udp.Configuration>"
 IP=`hostname -i`
-printf "$BEFORE_IP$IP$AFTER_IP" > net-ipv4.xml
+printf "$BEFORE_IP$IP$AFTER_IP" > $OUT
 
