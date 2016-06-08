@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+AM nickname: ru-ig
+--> 
+<rspec xmlns="http://www.geni.net/resources/rspec/3"
+       xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:sharedvlan="http://www.protogeni.net/resources/rspec/ext/shared-vlan/1"
+       xs:schemaLocation="http://www.geni.net/resources/rspec/3
+           http://www.geni.net/resources/rspec/3/request.xsd
+           http://www.protogeni.net/resources/rspec/ext/shared-vlan/1
+           http://www.protogeni.net/resources/rspec/ext/shared-vlan/1/request.xsd"
+       type="request">
+
+  <node client_id="rutgers-ig-oml-01" exclusive="true">
+      <emulab:routable_control_ip
+      xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1"/>
+    <sliver_type name="raw-pc">
+      <disk_image description="Ubuntu 12.04 LTS" name="urn:publicid:IDN+instageni.rutgers.edu+image+emulab-ops:UBUNTU12-64-STD" os="Linux" version="12.04"/> 
+    </sliver_type>
+    <interface client_id="rutgers-ig-oml-01:if0">
+      <ip address="10.44.0.127" netmask="255.255.0.0" type="ipv4" />
+    </interface>
+  </node>
+
+  <link client_id="mfirst-oml-link-01">
+      <vlan:link_shared_vlan
+      xmlns:vlan="http://www.geni.net/resources/rspec/ext/shared-vlan/1"
+      name="fia-mobilityfirst"/>
+      <interface_ref client_id="rutgers-ig-oml-01:if0"/>
+  </link>
+
+</rspec>

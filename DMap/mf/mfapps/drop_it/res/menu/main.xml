@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="1"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    <item
+        android:id="@+id/manual_loc_entry"
+        android:icon="@drawable/ic_action_place"
+        android:orderInCategory="2"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/manual_loc_entry_string"/>
+    <item
+        android:id="@+id/qr_loc_entry"
+        android:icon="@drawable/camera"
+        android:orderInCategory="3"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/qr_loc_entry_string"/>
+    <item
+        android:id="@+id/restart_service"
+        android:icon="@drawable/camera"
+        android:orderInCategory="4"
+        android:showAsAction="never"
+        android:title="@string/rest_serv"/>
+
+</menu>

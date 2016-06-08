@@ -1,0 +1,10 @@
+<omlc id='node_mon' exp_id='mf-test'>
+  <collect url='tcp://oml'>
+    <stream name='node_stats' mp='node_stats' samples='1'>
+    </stream>
+  </collect>
+  <collect url='file:/var/log/mf-node-mon.db'>
+    <stream name='node_stats_file' mp='node_stats' samples='1'>
+    </stream>
+  </collect>
+</omlc>

@@ -1,0 +1,5 @@
+mfproxy for HTTP application.
+
+The proxy has one mobilityfirst socket and a mongoose webserver running. 
+
+The mongoose server is multithreaded. The mobilityfirst is not for now. We might use the content server implemtentation to have pre-allocated multithreding.

@@ -1,0 +1,10 @@
+<omlc id='click_mon'>
+  <collect url='tcp:oml.orbit-lab.org:3003'>
+    <stream name='packet_stats' mp='packet_stats' samples='1'>
+    </stream>
+    <stream name='routing_stats' mp='routing_stats' samples='1'>
+    </stream>
+    <stream name='link_stats' mp='link_stats' samples='1'>
+    </stream>
+  </collect>
+</omlc>

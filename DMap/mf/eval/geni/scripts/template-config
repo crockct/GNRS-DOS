@@ -1,0 +1,79 @@
+
+# ***** Customize all props. that has '# CHANGE #' next to it
+
+# -----------------------
+# GENI account properties
+# -----------------------
+
+geni_key="/path/to/geni/private_key" # CHANGE #
+geni_username="mygeniusername" # CHANGE #
+
+# ---------------------
+# network configuration
+# ---------------------
+
+#the IP subnet that will be used for GNRS service plane
+Netfilter="10.44.0.0/16"
+
+#the IP subnet that will be used for end-host access
+Edgefilter="10.43.0.0/16"
+
+
+# --------------------
+# code base properties
+# --------------------
+
+#mf git repo; bitbucket  
+repo_username="myrepousername" # CHANGE # 
+mfgitorigin="https://${repo_username}@bitbucket.org/nkiran/mobilityfirst.git"
+
+#mf branch to install
+mfbranch="master"
+
+#click release to install
+clickversion="v2.0.1"
+
+#web address to download mf sources
+mf_webaddr="http://mobilityfirst.orbit-lab.org/chrome/site/mfdownloads/mobilityfirst-latest.tar.gz"
+
+# ----------------------------------------
+# local node (expt. controller) properties
+# ----------------------------------------
+
+l_mfbasedir="/home/nkiran/mobilityfirst/trunk/code/prototype" # CHANGE #
+l_tooldir="${l_mfbasedir}/eval/geni/tools"
+l_confdir="${l_mfbasedir}/eval/geni/conf"
+
+l_resultdir="/home/nkiran/geni-results" # CHANGE #
+
+
+# -------------------------------------
+# remote node (testbed side) properties
+# -------------------------------------
+
+#Warning: relative paths will be relative to 'pwd' of executing script
+r_basedir="/users/kiranna" # CHANGE #
+r_mfsrcdir="${r_basedir}/src/mobilityfirst"
+r_clicksrcdir="${r_basedir}/src/click"
+r_logdir="${r_basedir}/logs"
+r_scriptdir="${r_basedir}/scripts"
+r_jardir="${r_basedir}/jars"
+r_cfgdir="${r_basedir}/conf"
+r_tracedir="${r_basedir}/traces"
+r_mfbindir="/usr/local/bin"
+
+r_gnrsport=5000
+r_gnrsclientport=3000
+
+r_gnrscfgdir="${r_cfgdir}/gnrs-srvr"
+r_gnrsstatdir="${r_logdir}/gnrs-srvr-stats"
+r_gnrslogdir="${r_logdir}"
+r_gnrsdbdir="${r_logdir}/gnrs-bdb"
+
+r_gnrsclientcfgdir="${r_cfgdir}/gnrs-client"
+r_gnrsclientstatdir="${r_logdir}/gnrs-client-stats"
+r_gnrsclientlogdir="$r_logdir"
+
+r_clickcontrolport=5005
+
+r_java_home="/usr/lib/jvm/java-7-openjdk-i386"

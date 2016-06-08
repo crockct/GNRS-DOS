@@ -1,0 +1,11 @@
+# Network prefix to Autonomous System (AS) binding file for IPv4 Networks
+# The file contains two (2) columns: network prefix and AS number.
+# Columns are separated by white space.  Any characters after a hash (#) 
+# character are considered comments.
+
+# Example prefixes
+1.2.3.0/24 1
+1.2.3.255/25 2
+1.2.3.255/26 3
+1.0.0.0/8 4
+192.168.231.44/13 5

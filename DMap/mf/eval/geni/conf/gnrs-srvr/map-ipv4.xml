@@ -1,0 +1,14 @@
+<edu.rutgers.winlab.mfirst.mapping.ipv4udp.Configuration>
+    <!-- Prefix filename. Maps network address prefixes to AS numbers. Will be
+       removed in future versions. -->
+  <prefixFile>CONFIG_DIR/prefixes.ipv4</prefixFile>
+
+  <!-- AS bindings filename. Maps Autonomous Systems to their network
+       identities (IP address, port). Will be removed in future versions. -->
+  <asBindingFile>CONFIG_DIR/as-binding.ipv4</asBindingFile>
+    
+  <!-- The hashing algorithm to use.  Should be one of: MD2, MD5, SHA-1,
+       SHA-256, SHA-384, or SHA-512. -->
+  <hashAlgorithm>SHA-1</hashAlgorithm>
+    
+</edu.rutgers.winlab.mfirst.mapping.ipv4udp.Configuration>

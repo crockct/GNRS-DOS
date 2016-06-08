@@ -1,0 +1,45 @@
+#!/bin/bash
+
+# Performs scp simultaneously to all nodes 
+
+USAGE="Usage: `basename $0` <nodes-file> <src-file1> <src-file2>... <dst-dir>"
+
+[[ $# -lt 3 ]] && echo "$USAGE" && exit 1
+
+nodesfile=$1
+src=${@:2:$(($#-2))}
+dst=${@: -1}
+
+scriptdir=$(dirname $0)
+[[ ! -e $scriptdir/config ]] && echo "Can't find 'config'!" && exit 1
+[[ ! -e $scriptdir/util.sh ]] && echo "Can't find 'util.sh'!" && exit 1
+source $scriptdir/config
+source $scriptdir/util.sh
+
+hosts=$(perl -n -a -F, -e 'next if /^#/;print $F[0], " "' $nodesfile)
+
+declare -A hostmap
+declare -A pids
+
+for h in $hosts; 
+do 
+    [[ ! -z ${hostmap[$h]} ]] && continue
+    hostmap[$h]=$h
+    tmplog="/tmp/scp.$h.rslt"
+    #cmd="cmd: scp -i $geni_key $src $geni_username@$h:$dst"
+    cmd="cmd: scp $src -> $dst"
+    subbanner "node: $h" "$cmd" > $tmplog 2>&1
+    scp -i $geni_key $src $geni_username@$h:$dst >> $tmplog 2>&1 &
+    pids[$h]=$!
+    #echo ${pids[$h]}
+done
+
+for h in "${!hostmap[@]}"
+do
+    #can encounter a race here if pid is reused, but our job is done
+    tmplog="/tmp/scp.$h.rslt"
+    wait ${pids[$h]} > /dev/null 2>&1
+    result=$(cat "$tmplog") 
+    rm "$tmplog"
+    echo -e "$result\n"
+done

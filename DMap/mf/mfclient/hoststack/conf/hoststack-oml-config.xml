@@ -1,0 +1,8 @@
+<omlc id='host_mon'>
+  <collect url='oml:3003'>
+    <stream name='interface_stats' mp='interface_statistics' samples='1'>
+    </stream>
+    <stream name='chunk_stats' mp='chunks_statistics' samples='1'>
+    </stream>
+  </collect>
+</omlc>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+AM nickname: utah-ig
+--> 
+<rspec xmlns="http://www.geni.net/resources/rspec/3"
+       xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:sharedvlan="http://www.protogeni.net/resources/rspec/ext/shared-vlan/1"
+       xs:schemaLocation="http://www.geni.net/resources/rspec/3
+           http://www.geni.net/resources/rspec/3/request.xsd
+           http://www.protogeni.net/resources/rspec/ext/shared-vlan/1
+           http://www.protogeni.net/resources/rspec/ext/shared-vlan/1/request.xsd"
+       type="request">
+
+  <node client_id="utah-ig-01" exclusive="false">
+      <emulab:routable_control_ip
+      xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1"/>
+    <sliver_type name="emulab-xen">
+       <emulab:xen xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" cores="4" ram="1024" disk="8"/> 
+    </sliver_type>
+    <interface client_id="utah-ig-01:if0">
+      <ip address="10.44.14.1" netmask="255.255.0.0" type="ipv4" />
+    </interface>
+  </node>
+
+  <link client_id="mfirst-vm-link1">
+      <vlan:link_shared_vlan
+      xmlns:vlan="http://www.geni.net/resources/rspec/ext/shared-vlan/1"
+      name="fia-mobilityfirst"/>
+      <interface_ref client_id="utah-ig-01:if0"/>
+  </link>
+
+  <node client_id="utah-ig-02" exclusive="false">
+      <emulab:routable_control_ip
+      xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1"/>
+    <sliver_type name="emulab-xen">
+       <emulab:xen xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" cores="1" ram="512" disk="8"/> 
+    </sliver_type>
+    <interface client_id="utah-ig-02:if0">
+      <ip address="10.44.14.128" netmask="255.255.0.0" type="ipv4" />
+    </interface>
+  </node>
+
+  <link client_id="mfirst-vm-link2">
+      <vlan:link_shared_vlan
+      xmlns:vlan="http://www.geni.net/resources/rspec/ext/shared-vlan/1"
+      name="fia-mobilityfirst"/>
+      <interface_ref client_id="utah-ig-02:if0"/>
+  </link>
+
+</rspec>

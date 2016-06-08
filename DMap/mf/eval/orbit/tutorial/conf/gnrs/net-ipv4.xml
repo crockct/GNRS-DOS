@@ -1,0 +1,10 @@
+<edu.rutgers.winlab.mfirst.net.ipv4udp.Configuration>
+  <!-- Port number for incoming UDP packets -->
+  <bindPort>5001</bindPort>
+
+  <!-- Interface IP address to bind to. Leave blank for "any". -->
+  <bindAddress>192.168.100.1</bindAddress>
+
+  <!-- Flag to indicate if writes should be asynchronous (non-blocking) -->
+  <asynchronousWrite>false</asynchronousWrite>
+</edu.rutgers.winlab.mfirst.net.ipv4udp.Configuration>

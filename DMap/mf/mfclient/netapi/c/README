@@ -1,0 +1,24 @@
+#dependency
+1) for linux:
+    gcc 
+2) for android:
+    android cross compiler (NDK)
+
+#compile:
+
+  1) for linux:
+        make clean (be sure to do this)    
+        make -f makefile-linux
+  2) for android: (be sure to put the xcompiler into env path)
+        make clean (be sure to do this)
+        make
+
+#install:
+
+  1) for linux:
+        sudo cp libmfapi-l.so /usr/lib
+  2) for android:(from your laptop)
+        sudo adb push libmfapi.so /system/lib (Before you do this, you have to
+     remount your phone file system with read-write permission)
+
+Note: this program assumes '/data/mfdemo/' exists either on your phone or on you laptop 

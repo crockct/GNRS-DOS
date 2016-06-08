@@ -1,0 +1,17 @@
+#dependency
+1) for linux:
+    gcc 
+2) for android:
+    android cross compiler (NDK)
+
+#compile:
+
+  1) for linux:
+        make clean (be sure to do this)    
+        make -f makefile-linux
+  2) for android: (be sure to put the xcompiler into env path)
+        make clean (be sure to do this)
+        make (libmfapi.so have to present in ../../api/)
+
+Note: 1) You have to have 'root' permission to run this program 
+      2) You have to install libmfapi.so(for android) or libmfapi-l.so(for linux) in you system first  

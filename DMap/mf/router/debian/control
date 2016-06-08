@@ -1,0 +1,22 @@
+Source: mfclick
+Section: net
+Priority: optional
+Maintainer: Francesco Bronzino <bronzino@winlab.rutgers.edu>
+Build-Depends: debhelper (>= 7), libexpat1-dev, libpcap0.8-dev
+Standards-Version: 3.9.3
+Homepage: http://www.read.cs.ucla.edu/click/
+Vcs-Browser: https://github.com/kohler/click
+Vcs-Git: https://github.com/kohler/click.git
+
+Package: mfclick
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Modular software router
+ Click is a tool for building flexible and configurable routers.
+ .
+ A click router is assembled from simple elements that implement simple
+ functionalities, such as packet classification, queuing, scheduling and
+ interfacing with network devices. A click configuration is a graph of
+ elements that send each others packets and process them.
+ .
+ This package provides the userspace tools for using click.

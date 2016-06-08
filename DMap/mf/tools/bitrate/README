@@ -1,0 +1,5 @@
+This is a tool for getting bitrate of a client.
+Currently, it supports wifi and wimax.
+For wifi, it uses a iw command to get the information.
+For wimax, it sends a query to a database, and parses the response.
+

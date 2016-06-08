@@ -1,0 +1,13 @@
+# Network prefix to Autonomous System (AS) binding file for IPv4 Networks
+# The file contains two (2) columns: network prefix and AS number.
+# Columns are separated by white space.  Any characters after a hash (#) 
+# character are considered comments.
+
+# Single AS covers entire namespace
+#0.0.0.0/0 1 
+
+# Four ASs cover entire namespace 
+0.0.0.0/2 1 
+64.0.0.0/2 2
+128.0.0.0/2 3
+192.0.0.0/2 4

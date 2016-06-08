@@ -1,0 +1,26 @@
+#dependency
+1) for linux:
+    gcc, libpcap, libopenssl, libopenssl-dev 
+2) for android:
+    android cross compiler (NDK), libpcap
+
+#compile:
+
+  1) for linux:
+        $make 
+        $sudo make install
+  2) for android: (be sure to put the ndk-build into env path)
+        $cd android/
+        $./compile
+
+#install & run
+
+Before you run the stack, you need to modify interfaces.xml and policy.xml files according to your need.
+This stack could run on two kinds of interfaces, i.e wifi and wimax. In interfaces.xml, 'apmac' means the first hop mac address this node want to communicate with.
+
+  1) for linux:
+        $sudo mfstack [log_level] /path/to/conf/file
+  2) for android:(from your laptop)
+	1)adb push the generated mfandroidstack file into your android device.
+	2)start from cmd-line or use the provided hoststack-launcher app
+

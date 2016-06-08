@@ -1,0 +1,7 @@
+#List of name to GUID pairs for name resolution service
+#Example:
+#Single mapping
+name1, 1
+#Multiple mappings
+name2, 2
+name2, 22

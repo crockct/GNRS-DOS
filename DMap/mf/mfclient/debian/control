@@ -1,0 +1,15 @@
+Source: mfclient
+Section: net
+Priority: extra
+Maintainer: Francesco Bronzino <bronzino@winlab.rutgers.edu>
+Build-Depends: debhelper (>= 8.0.0), libpopt-dev, libpcap0.8-dev, openssl, liboml2-dev, openjdk-7-jdk
+Standards-Version: 3.9.2
+Homepage: http://www.mobilityfirst.winlab.rutgers.edu
+Vcs-Git: ssh://external1.orbit-lab.org/common/git/mf
+Vcs-Browser: http://www.orbit-lab.org/browser/mf
+
+Package: mfclient
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, liboml2, libpopt0, openjdk-7-jdk, libpcap0.8, openssl
+Description: All client Mobilityfirst related software
+ All client Mobilityfirst related software. Contains the following components: client network stack, network api (c++ and java), gnrs api (c++ and java). 

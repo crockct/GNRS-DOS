@@ -1,0 +1,15 @@
+Source: mfapps
+Section: net
+Priority: extra
+Maintainer: Francesco Bronzino <bronzino@winlab.rutgers.edu>
+Build-Depends: debhelper (>= 8.0.0), mfclient, libpcap0.8-dev, openjdk-7-jdk
+Standards-Version: 3.9.2
+Homepage: http://www.mobilityfirst.winlab.rutgers.edu
+Vcs-Git: ssh://external1.orbit-lab.org/common/git/mf
+Vcs-Browser: http://www.orbit-lab.org/browser/mf
+
+Package: mfapps
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, mfclient, libpcap0.8, openjdk-7-jdk
+Description: Set of MobilityFirst applications
+ Set of MobilityFirst applications implemented using the new network api. Includes: basic data sender/receiver, mfping (ping like application), iperf, mfproxy (http<-->mf proxy) 

@@ -1,0 +1,6 @@
+# Special prefixes file that evenly partitions the address
+# space among a set of GNRS servers.
+32.0.0.0/4 1
+96.0.0.0/4 2
+160.0.0.0/4 3
+224.0.0.0/4 4

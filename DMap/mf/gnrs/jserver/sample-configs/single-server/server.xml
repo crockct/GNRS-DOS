@@ -1,0 +1,67 @@
+<edu.rutgers.winlab.mfirst.Configuration>
+  <!--  The number of worker threads to use when processing messages.  
+        This number is  above and beyond the primary NIO thread which will process 
+        messages. If this value is 0 or negative, then 1 worker thread will 
+        be used. -->
+  <numWorkerThreads>1</numWorkerThreads>
+
+  <!-- The number of replicas to use for insertions or retrievals of GUID bindings in the global
+       GNRS network. -->
+  <numReplicas>1</numReplicas>
+
+  <!-- True if the server should collect statistics and log them -->
+  <collectStatistics>true</collectStatistics>
+  
+  <!-- 
+       The type of networking to be used by the server. Changes to this value
+       mean that the networkConfiguration parameter must reference the correct
+       configuration file.  
+       Possible values are:
+         * "ipv4udp" - IPv4 with UDP
+   -->
+  <networkType>ipv4udp</networkType>
+  
+  <!-- Configuration file name for the network access object. -->
+  <networkConfiguration>sample-configs/single-server/net-ipv4.xml</networkConfiguration>
+  
+  <!-- Configuration file name for the GUID mapping object. -->
+  <mappingConfiguration>sample-configs/single-server/map-ipv4.xml</mappingConfiguration>
+
+  <!-- The type of GUID storage object to use.  Changes to this value mean that
+       the config storeConfiguration parameter must reference the correct
+       configuration file.
+       Possible values are:
+         * "simple" - Basic in-memory map. Configuration file value is ignored. 
+         * "berkeleydb" - Persistent BerkeleyDB with in-memory cache.-->
+  <storeType>berkeleydb</storeType>
+  
+  <!-- Configuration file name for the GUID storage object. -->
+  <storeConfiguration>sample-configs/single-server/berkeleydb.xml</storeConfiguration>
+  
+   <!-- Number of reattempts to send timed-out messages to other servers. -->
+  <numAttempts>2</numAttempts>
+  
+  <!-- How long to wait for a response before declaring a message timed-out. -->
+  <timeoutMillis>500</timeoutMillis>
+  
+  <!-- Number of GUID entries to store in the local cache.  A non-positive value
+       disables caching. -->
+  <cacheEntries>0</cacheEntries>
+  
+  <!-- How long to keep a binding in the GNRS replica servers if no expiration
+       value is specified. Value is in milliseconds. -->
+  <defaultExpiration>900000</defaultExpiration>
+  
+  <!-- How long to keep a binding in caches if no TTL value is specified. Value is in
+       milliseconds. -->
+  <defaultTtl>30000</defaultTtl>
+  
+  <!-- Where to place statistics output (CSV) files if statistics generation
+       is enabled. -->
+  <statsDirectory>sample-configs/single-server/stats/</statsDirectory>
+  <!-- Which module will be used to select subsets of the K replicas
+       for contact during a Lookup request from client.  Possible values:
+       * "random" - randomly select 2 of the servers.
+       -->
+  <replicaSelector>random</replicaSelector>
+</edu.rutgers.winlab.mfirst.Configuration>

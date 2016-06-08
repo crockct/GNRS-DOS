@@ -1,0 +1,15 @@
+LOCAL_PATH:= $(call my-dir)
+include $(CLEAR_VARS)
+
+LOCAL_SRC_FILES:=\
+	jni/edu_rutgers_winlab_jmfapi_JMFAPI.c\
+	log.c\
+	mfapi.c
+
+LOCAL_CFLAGS := -DANDROID2 -I$(MF_HOME)/common/
+	
+LOCAL_LDLIBS := -L$(SYSROOT)/usr/lib -llog 
+
+LOCAL_MODULE:= libmfapi_jni
+
+include $(BUILD_SHARED_LIBRARY)

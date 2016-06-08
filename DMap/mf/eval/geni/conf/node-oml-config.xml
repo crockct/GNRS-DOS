@@ -1,0 +1,6 @@
+<omlc id='node_mon' exp_id='mf-gec19-1'>
+  <collect url='tcp://10.44.0.127'>
+    <stream name='node_stats' mp='node_stats' samples='1'>
+    </stream>
+  </collect>
+</omlc>

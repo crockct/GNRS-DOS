@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/WhiteSmoke"
+    android:padding="10dp"
+    tools:context=".MainActivity$DummySectionFragment" >
+
+    <EditText
+        android:id="@+id/message_title_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:hint="@string/title_area_hint"
+        android:inputType="textCapWords"
+        android:textIsSelectable="false"
+        android:textSize="30sp"
+        android:maxLength="20"
+        android:maxLines="1" 
+        />
+
+    <EditText
+        android:id="@+id/message_text_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/message_title_area"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="20dp"
+        android:autoLink="all"
+        android:hint="@string/text_area_hint"
+        android:inputType="textMultiLine|textCapSentences|textAutoCorrect|textAutoComplete"
+        android:textIsSelectable="false"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/drop_it_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/drop_it_button" 
+        android:onClick="dropIt"/>
+
+</RelativeLayout>

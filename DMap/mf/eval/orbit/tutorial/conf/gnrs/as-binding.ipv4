@@ -1,0 +1,5 @@
+# AS mapping for IPv4 addresses. Each field is delimited by whitespace.
+# Each line is: AS number, IP address, UDP port
+
+# Just one AS (see also prefixes.ipv4)
+1 192.168.100.1 5001

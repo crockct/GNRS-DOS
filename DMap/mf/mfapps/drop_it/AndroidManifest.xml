@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ketonax.drop_it"
+    android:installLocation="internalOnly"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- android:uiOptions="splitActionBarWhenNarrow" -->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.ketonax.drop_it.MainActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ketonax.drop_it.DisplayMessageActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_display_message_string"
+            android:parentActivityName="com.ketonax.drop_it.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ketonax.drop_it.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.ketonax.drop_it.ChooseLocationActivity"
+            android:label="@string/title_activity_choose_location" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ketonax.drop_it.MainActivity" />
+        </activity>
+
+        <!-- <service -->
+        <!-- android:name="com.ketonax.locationService.ReceiveTransitionsIntentService" -->
+        <!-- android:exported="false" -->
+        <!-- android:label="@string/app_name" > -->
+        <!-- </service> -->
+        <service
+            android:name="com.ketonax.networkLogic.MFInternetService"
+            android:enabled="true"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/service_name" >
+        </service>
+
+        <activity
+            android:name="com.ketonax.locationService.ManualLocationEntryActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_manual_location_entry"
+            android:parentActivityName="com.ketonax.drop_it.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ketonax.drop_it.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.ketonax.locationService.QRLocationEntryActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_qrlocation_entry"
+            android:parentActivityName="com.ketonax.drop_it.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ketonax.drop_it.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

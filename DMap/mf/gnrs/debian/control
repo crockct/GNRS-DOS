@@ -1,0 +1,15 @@
+Source: gnrs
+Section: net
+Priority: extra
+Maintainer: Francesco Bronzino <bronzino@winlab.rutgers.edu>
+Build-Depends: debhelper (>= 8.0.0), openjdk-7-jdk
+Standards-Version: 3.9.2
+Homepage: http://www.mobilityfirst.winlab.rutgers.edu
+Vcs-Git: ssh://external1.orbit-lab.org/common/git/mf
+Vcs-Browser: http://www.orbit-lab.org/browser/mf
+
+Package: gnrs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Java DMap implementation of MoblityFirst's GNRS
+  Java DMap implementation of MoblityFirst's GNRS 

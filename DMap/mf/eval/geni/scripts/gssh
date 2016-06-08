@@ -1,0 +1,50 @@
+#!/bin/bash
+
+# Issues ssh commands simultaneously across all nodes 
+
+USAGE="Usage: `basename $0` <nodes-file> <cmd>"
+
+[[ $# -lt 2 ]] && echo "$USAGE" && exit 1
+
+nodesfile=$1
+cmd="${@: -1}"
+
+
+scriptdir=$(dirname $0)
+[[ ! -e $scriptdir/config ]] && echo "Can't find 'config'!" && exit 1
+[[ ! -e $scriptdir/util.sh ]] && echo "Can't find 'util.sh'!" && exit 1
+source $scriptdir/config
+source $scriptdir/util.sh
+
+hostnames=( $(perl -n -a -F, -e 'next if /^#/;print $F[0], " "' $nodesfile) )
+guids=( $(perl -n -a -F, -e 'next if /^#/;print $F[4], " "' $nodesfile) )
+
+declare -A hostmap
+declare -A pids
+
+i=0
+for h in "${hostnames[@]}"; 
+do 
+    [[ ! -z ${hostmap[$h]} ]] && ((i++)) && continue
+    hostmap[$h]=$h
+    #substitute any '__GUID' in command with  the GUID corresponding to the host
+    hostguid=${guids[$i]}
+    expcmd=${cmd//"__GUID"/$hostguid}
+    tmplog="/tmp/ssh.$h.rslt"
+    #prntcmd="cmd: ssh -i $geni_key $geni_username@$h '$expcmd'"
+    prntcmd="cmd:\t$expcmd"
+    subbanner "node:\t$h" "$prntcmd" > $tmplog 2>&1
+    ssh -i $geni_key $geni_username@$h "$expcmd" >> $tmplog 2>&1 &
+    pids[$h]=$!
+    ((i++))
+done
+
+for h in "${!hostmap[@]}"
+do
+    #can encounter a race here if pid is reused, but our job is done
+    wait ${pids[$h]} > /dev/null 2>&1
+    tmplog="/tmp/ssh.$h.rslt"
+    result=$(cat "$tmplog") 
+    rm "$tmplog"
+    echo -e "$result\n"
+done
