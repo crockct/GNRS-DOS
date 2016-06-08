@@ -3,7 +3,7 @@
        should be stored. If the path does not start with a 
        file separator character ('/' on *nix, '\' on MS Windows), the
        path will be relative to the working directory of the server.  -->
-  <pathToFiles>rock-configs/current/bdb/</pathToFiles>
+  <pathToFiles>sample-configs/single-server/bdb/</pathToFiles>
   
   <!-- The size of the in-memory cache of the DB, in mebibytes 
        (2^20 bytes).  -->
