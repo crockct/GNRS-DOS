@@ -101,11 +101,9 @@ public class Rock_IPv4UDPGUIDMapTest {
 	      fail("Unable to decode from ASCII.");
 	    }
 	  this.guidAddr = new NetworkAddress(AddressType.GUID, new byte[] {});
-	  System.out.println("Setup complete, guid addr: " + this.guidAddr.toString());
 	 
     try {
       IPv4UDPGUIDMapper mapper = new IPv4UDPGUIDMapper("rock-configs/baseline/map-ipv4.xml");
-      System.out.println(mapper.toString());
       Collection<NetworkAddress> mapped = mapper.getMapping(guid, k,
           AddressType.INET_4_UDP);
       Assert.assertNotNull(mapped);
@@ -115,31 +113,6 @@ public class Rock_IPv4UDPGUIDMapTest {
     	  NetworkAddress netAddr = iter.next();
     	  System.out.println(netAddr.toString());
       }
-      //Assert.assertFalse(iter.hasNext());
-      //Assert.assertTrue(this.ipv4Addr5.equals(netAddr));
-
-/*      mapped = mapper.getMapping(guid, 1);
-      Assert.assertNotNull(mapped);
-      iter = mapped.iterator();
-      Assert.assertEquals(1, mapped.size());
-      Assert.assertTrue(iter.hasNext());
-      NetworkAddress netAddr = iter.next();
-      Assert.assertFalse(iter.hasNext());
-      Assert.assertTrue(this.ipv4Addr5.equals(netAddr));
-
-      mapped = mapper.getMapping(guid, 1, null);
-      Assert.assertNotNull(mapped);
-      iter = mapped.iterator();
-      Assert.assertEquals(1, mapped.size());
-      Assert.assertTrue(iter.hasNext());
-      netAddr = iter.next();
-      Assert.assertFalse(iter.hasNext());
-      Assert.assertTrue(this.ipv4Addr5.equals(netAddr));
-
-      mapped = mapper.getMapping(guid, 1, AddressType.GUID);
-      Assert.assertNull(mapped);*/
-
-      // Assert.assertTrue(nullList.isEmpty());
     } catch (IOException e) {
       // TODO Auto-generated catch block
       e.printStackTrace();
