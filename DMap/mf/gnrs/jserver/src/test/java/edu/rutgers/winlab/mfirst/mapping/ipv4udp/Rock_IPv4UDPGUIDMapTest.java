@@ -28,6 +28,7 @@ package edu.rutgers.winlab.mfirst.mapping.ipv4udp;
 import static org.junit.Assert.*;
 
 import java.io.BufferedReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.UnsupportedEncodingException;
@@ -73,6 +74,11 @@ public class Rock_IPv4UDPGUIDMapTest {
   public NetworkAddress ipv4Addr5;
   public NetworkAddress guidAddr;
   public int k = 3;
+  public int count_GUID_maps_less_three = 0;
+  
+  public int N = 1000;
+  
+  final Random rand = new Random();
 
   @Rule
   public MethodRule watchman = new TestWatchman() {
@@ -84,6 +90,52 @@ public class Rock_IPv4UDPGUIDMapTest {
   };
   
 
+  /**
+   * Test method for
+   * {@link edu.rutgers.winlab.mfirst.mapping.ipv4udp.IPv4UDPGUIDMapper#getMapping(edu.rutgers.winlab.mfirst.GUID, int, edu.rutgers.winlab.mfirst.net.AddressType[])}
+   * .
+ * @throws IOException 
+   */
+  @Test
+  public void testGetNMappings() throws IOException {
+	  FileWriter writer = new FileWriter("rainbow_table.csv");
+	  for (int i = 0; i < N; i++){
+		  try{
+			  this.guid = GUID.fromASCII("" + rand.nextInt(1000000));
+			  writer.append(this.guid.toString());
+			  this.ipv4Addr5 = IPv4UDPAddress.fromASCII("127.0.0.1:5005");
+		} catch (UnsupportedEncodingException e) {
+		  fail("Unable to decode from ASCII.");
+		}
+      this.guidAddr = new NetworkAddress(AddressType.GUID, new byte[] {});
+		 
+	    try {
+	      IPv4UDPGUIDMapper mapper = new IPv4UDPGUIDMapper("rock-configs/baseline/map-ipv4.xml");
+	      Collection<NetworkAddress> mapped = mapper.getMapping(guid, k,
+	          AddressType.INET_4_UDP);
+	      Assert.assertNotNull(mapped);
+	      Iterator<NetworkAddress> iter = mapped.iterator();
+	      //Assert.assertEquals(k, mapped.size()); two valid IPs announced by same AS? 
+	      if (mapped.size() < k){
+	    	  count_GUID_maps_less_three++;
+	      }
+	      
+	      while (iter.hasNext()){
+	    	  NetworkAddress netAddr = iter.next();
+	    	  writer.append(",");
+	    	  writer.append(netAddr.toString());
+	      }
+	      writer.append('\n');
+	    } catch (IOException e) {
+	      // TODO Auto-generated catch block
+	      e.printStackTrace();
+	    }
+	}
+	writer.flush();
+	writer.close();
+	System.out.println(Integer.toString(count_GUID_maps_less_three) + "/" + Integer.toString(N) + " mapped to less than " + Integer.toString(k) + " ASs.");
+  }
+  
   /**
    * Test method for
    * {@link edu.rutgers.winlab.mfirst.mapping.ipv4udp.IPv4UDPGUIDMapper#getMapping(edu.rutgers.winlab.mfirst.GUID, int, edu.rutgers.winlab.mfirst.net.AddressType[])}

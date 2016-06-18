@@ -15,6 +15,11 @@ DMap/mf/gnrs/jserver/rock-configs
     - as-binding.ipv4 associates AS number to IP and port
     - server.xml - uses k=3 replicas, selects one at random for lookup, no caching enabled, 
         default GUID binding expiration 900000 ms = 15 min 
+        
+DMap attacks: 
 
 DMap/mf/gnrs/jserver/src/test/java/edu/rutgers/winlab/mfirst/mapping/ipv4udp/Rock_IPv4UDPGUIDMapTest - can be used to print out 
 NAs for a GUID - ie. generate a Rainbow Table. Note that this assumes as-binding.ipv4 doesn't change based on which nodes are cooperating. 
+
+DMap/mf/gnrs/jserver/...winlab/mfirst/client/GeneratingClient - can be used to look up a lot of GUIDs with a time delay between requests
+Usage: <Config File> < total Num Request> <Request Delay in microseconds> <Num Clients> [-v]"
