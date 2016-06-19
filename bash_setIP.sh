@@ -1,5 +1,5 @@
 #!/bin/bash
-OUT=$"/root/mf/gnrs/jserver/rock-configs/baseline/net-ipv4.xml"
+OUT=$"/root/GNRS-DOS/DMap/mf/gnrs/jserver/rock-configs/current/net-ipv4.xml"
 BEFORE_IP=$"<edu.rutgers.winlab.mfirst.net.ipv4udp.Configuration>
 <!-- Port number for incoming UDP packets -->\n
   <bindPort>5000</bindPort>\n
