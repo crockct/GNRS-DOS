@@ -1,2 +1,3 @@
 160531 01:06:23:836 INFO [sample-configs/single-server/bdb]Chose lowest utilized file for cleaning. totalUtilization: 46 bestFileUtilization: 101 lnSizeCorrectionFactor: NaN isProbe: false
 160531 01:10:06:338 INFO [sample-configs/single-server/bdb]No file selected for cleaning. totalUtilization: 54 bestFileUtilization: 101 lnSizeCorrectionFactor: NaN isProbe: false
+160618 20:19:43:931 INFO [rock-configs/current/bdb]No file selected for cleaning. totalUtilization: 54 bestFileUtilization: 101 lnSizeCorrectionFactor: NaN isProbe: false
