@@ -69,17 +69,17 @@ import edu.rutgers.winlab.mfirst.net.ipv4udp.GNRSProtocolCodecFactory;
 import edu.rutgers.winlab.mfirst.net.ipv4udp.IPv4UDPAddress;
 
 /**
- * A simple GNRS client that generates lots of lookup messages for sequential GUIDs.
+ * A simple GNRS client that generates lots of lookup messages.
  * 
  * @author Robert Moore
  */
-public class GeneratingClient extends IoHandlerAdapter implements Runnable {
+public class GeneratingClientRandom extends IoHandlerAdapter implements Runnable {
 
   /**
    * Logging facility for this class.
    */
   private static final Logger LOG = LoggerFactory
-      .getLogger(GeneratingClient.class);
+      .getLogger(GeneratingClientRandom.class);
 
   /**
    * Rough estimate of how precise the system nanosecond timer is.
@@ -120,9 +120,9 @@ public class GeneratingClient extends IoHandlerAdapter implements Runnable {
       }
     }
 
-    final GeneratingClient[] clients = new GeneratingClient[numClients];
+    final GeneratingClientRandom[] clients = new GeneratingClientRandom[numClients];
     for (int i = 0; i < clients.length; ++i) {
-      clients[i] = new GeneratingClient(config, delay, numLookups, verbose);
+      clients[i] = new GeneratingClientRandom(config, delay, numLookups, verbose);
     }
 
     final Thread[] threads = new Thread[numClients];
@@ -195,8 +195,6 @@ public class GeneratingClient extends IoHandlerAdapter implements Runnable {
    */
   private final transient boolean verbose;
 
-  private Integer nextGUID;
-
   /**
    * Creates a new GeneratingClient with the configuration and delay values
    * provided.
@@ -210,15 +208,13 @@ public class GeneratingClient extends IoHandlerAdapter implements Runnable {
    * @param verbose
    *          flag to print each response to the log.
    */
-  public GeneratingClient(final Configuration config, final int delay,
+  public GeneratingClientRandom(final Configuration config, final int delay,
       final int numLookups, boolean verbose) {
     super();
     this.verbose = verbose;
     this.config = config;
     this.delay = delay;
     this.numLookups = numLookups;
-    
-    this.nextGUID = 0;
 
     this.acceptor = new NioDatagramAcceptor();
     this.acceptor.setHandler(this);
@@ -255,7 +251,7 @@ public class GeneratingClient extends IoHandlerAdapter implements Runnable {
           this.config.getServerHost(), this.config.getServerPort()),
           this.acceptor.getLocalAddress());
 
-      GeneratingClient.this.perform(session);
+      GeneratingClientRandom.this.perform(session);
 
     } catch (IOException e) {
       LOG.error("Unable to bind to local port.", e);
@@ -302,16 +298,16 @@ public class GeneratingClient extends IoHandlerAdapter implements Runnable {
     StatisticsCollector.setPath(this.config.getStatsDirectory());
     StatisticsCollector.toFiles();
 
-    final int succ = GeneratingClient.this.numSuccess.get();
-    final int total = succ + GeneratingClient.this.numFailures.get();
+    final int succ = GeneratingClientRandom.this.numSuccess.get();
+    final int total = succ + GeneratingClientRandom.this.numFailures.get();
 
     LOG.info(String
         .format(
             "Sent: %,d  |  Received: %,d  |  Success: %,d  |  Bound: %,d  |  Loss: %,d",
             Integer.valueOf(numLookups), Integer.valueOf(total),
             Integer.valueOf(succ),
-            Integer.valueOf(GeneratingClient.this.numHits.get()),
-            Integer.valueOf(GeneratingClient.this.numLookups - total)));
+            Integer.valueOf(GeneratingClientRandom.this.numHits.get()),
+            Integer.valueOf(GeneratingClientRandom.this.numLookups - total)));
   }
 
   /**
@@ -330,7 +326,7 @@ public class GeneratingClient extends IoHandlerAdapter implements Runnable {
       LookupMessage message;
       long nextSend = System.nanoTime();
       long lastSend = 0l;
-      //final Random rand = new Random(this.config.getRandomSeed());
+      final Random rand = new Random(this.config.getRandomSeed());
 
       for (int i = 0; i < this.numLookups; ++i) {
 
@@ -338,7 +334,7 @@ public class GeneratingClient extends IoHandlerAdapter implements Runnable {
         message.addOption(new RecursiveRequestOption(true));
         message.finalizeOptions();
 
-        message.setGuid(GUID.fromASCII(this.incrementAndGetGUID()));
+        message.setGuid(GUID.fromASCII("" + rand.nextInt(1000000)));
         message.setRequestId(i);
         message.setOriginAddress(clientAddress);
         lastSend = System.nanoTime();
@@ -362,11 +358,6 @@ public class GeneratingClient extends IoHandlerAdapter implements Runnable {
           "Unable to parse local host name from configuration parameter.", uee);
     }
 
-  }
-  
-  private String incrementAndGetGUID () {
-	  this.nextGUID++;
-	  return this.nextGUID.toString();
   }
 
   /**
