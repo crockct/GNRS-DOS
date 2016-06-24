@@ -1,13 +1,13 @@
 <edu.rutgers.winlab.mfirst.client.Configuration>
   <!-- The hostname or IP address of the GNRS server -->
-  <serverHost>10.14.1.1</serverHost>
+  <serverHost>10.10.1.1</serverHost>
   <!-- The UDP port on which the server is listening for messages -->
   <serverPort>5000</serverPort>
   <!-- The UDP port that client should use for responses from the server -->
   <clientPort>4001</clientPort>
   <!-- The hostname the client will send to the server. Also used for binding
        sockets when necessary. -->
-  <clientHost>10.14.1.9</clientHost>
+  <clientHost>10.10.8.8</clientHost>
   <!-- Seed value for random number generation.  A negative value will use the current
        millisecond timestamp. -->
   <randomSeed>-1</randomSeed>
