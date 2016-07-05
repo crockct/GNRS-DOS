@@ -76,7 +76,7 @@ public class Rock_IPv4UDPGUIDMapTest {
   public int k = 3;
   public int count_GUID_maps_less_three = 0;
   
-  public int N = 1000;
+  public int N = 100000;
   
   final Random rand = new Random();
 
@@ -101,7 +101,8 @@ public class Rock_IPv4UDPGUIDMapTest {
 	  FileWriter writer = new FileWriter("rainbow_table.csv");
 	  for (int i = 0; i < N; i++){
 		  try{
-			  this.guid = GUID.fromASCII("" + rand.nextInt(1000000));
+			  //this.guid = GUID.fromASCII("" + rand.nextInt(1000000));
+			  this.guid = GUID.fromASCII(Integer.toString(i+1));
 			  writer.append(this.guid.toString());
 			  this.ipv4Addr5 = IPv4UDPAddress.fromASCII("127.0.0.1:5005");
 		} catch (UnsupportedEncodingException e) {
@@ -140,7 +141,7 @@ public class Rock_IPv4UDPGUIDMapTest {
    * Test method for
    * {@link edu.rutgers.winlab.mfirst.mapping.ipv4udp.IPv4UDPGUIDMapper#getMapping(edu.rutgers.winlab.mfirst.GUID, int, edu.rutgers.winlab.mfirst.net.AddressType[])}
    * .
-   */
+   
   @Test
   public void testGetMapping() {
 	this.guid = new GUID();
@@ -170,6 +171,7 @@ public class Rock_IPv4UDPGUIDMapTest {
       e.printStackTrace();
     }
   }
+  */
 }
 
 

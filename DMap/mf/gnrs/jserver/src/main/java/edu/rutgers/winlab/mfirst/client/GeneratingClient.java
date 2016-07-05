@@ -321,7 +321,7 @@ public class GeneratingClient extends IoHandlerAdapter implements Runnable {
    *          the session on which to send the messages.
    */
   private void generateLookups(final IoSession session) {
-    LOG.info("Generating {} lookups.", Integer.valueOf(this.numLookups));
+    LOG.info("Generating {} sequential lookups.", Integer.valueOf(this.numLookups));
 
     try {
       final NetworkAddress clientAddress = IPv4UDPAddress.fromASCII(this.config
