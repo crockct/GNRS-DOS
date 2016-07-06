@@ -1,0 +1,11 @@
+<edu.rutgers.winlab.mfirst.storage.bdb.Configuration>
+  <!-- The filesystem path to where the persistent DB files
+       should be stored. If the path does not start with a 
+       file separator character ('/' on *nix, '\' on MS Windows), the
+       path will be relative to the working directory of the server.  -->
+  <pathToFiles>rock-configs/current/bdb/</pathToFiles>
+  
+  <!-- The size of the in-memory cache of the DB, in mebibytes 
+       (2^20 bytes).  -->
+  <cacheSizeMiB>16</cacheSizeMiB>
+</edu.rutgers.winlab.mfirst.storage.bdb.Configuration>
