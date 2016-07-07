@@ -8,12 +8,12 @@
 #                                    Node1-16                       Node1-18
 #--------------------------
 # setDataTrunk( "set of nodes", "array of VLANs", "native VLAN" )
-setDataTrunk( ["node1-10.grid.orbit-lab.org"], [1001,1002,1003], 8 )
-setDataTrunk( ["node1-11.grid.orbit-lab.org"], [1001], 8 )
-setDataTrunk( ["node1-16.grid.orbit-lab.org"], [1002], 8 )
-setDataTrunk( ["node1-17.grid.orbit-lab.org"], [1004], 8 )
-setDataTrunk( ["node1-18.grid.orbit-lab.org"], [1005], 8 )
-setDataTrunk( ["node1-12.grid.orbit-lab.org"], [1003,1004,1005], 8 )
+setDataTrunk( ["node1-10.grid.orbit-lab.org"], [1001,1002,1003])
+setDataTrunk( ["node1-11.grid.orbit-lab.org"], [1001])
+setDataTrunk( ["node1-16.grid.orbit-lab.org"], [1002])
+setDataTrunk( ["node1-17.grid.orbit-lab.org"], [1004])
+setDataTrunk( ["node1-18.grid.orbit-lab.org"], [1005])
+setDataTrunk( ["node1-12.grid.orbit-lab.org"], [1003,1004,1005])
 Experiment.done
 exit
 #--------------------------
