@@ -5,5 +5,6 @@ DATE=`date +%Y-%m-%d`
 NODE=`hostname`
 FILE_EXT=$".pcap"
 
-tcpdump -w $FILE_PATH$DATE$NODE$FILE_EXT
+tcpdump -ttttXvvSw $FILE_PATH$DATE$NODE$FILE_EXT
+# tttt proper timetable X = show payload in ascii and hex vv = verbosity level, S = absolute seq w = write to file
 
