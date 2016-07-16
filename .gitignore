@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+tcpdump/*localhost.pcap
+DMap/mf/gnrs/jserver/rock-configs/baseline/net-ipv4.xml
+
+
 # C extensions
 *.so
 
