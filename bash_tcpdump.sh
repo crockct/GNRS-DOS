@@ -1,7 +1,7 @@
 #!/bin/bash
 FILE_PATH=$"/root/GNRS-DOS/tcpdump/"
 
-DATE=`date +%Y-%m-%d`
+DATE=`date +%Y-%m-%d-+%T`
 NODE=`hostname`
 FILE_EXT=$".pcap"
 
