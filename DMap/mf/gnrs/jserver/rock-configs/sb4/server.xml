@@ -7,7 +7,7 @@
 
   <!-- The number of replicas to use for insertions or retrievals of GUID bindings in the global
        GNRS network. -->
-  <numReplicas>3</numReplicas>
+  <numReplicas>2</numReplicas>
 
   <!-- True if the server should collect statistics and log them -->
   <collectStatistics>true</collectStatistics>
@@ -39,10 +39,10 @@
   <storeConfiguration>rock-configs/current/berkeleydb.xml</storeConfiguration>
   
    <!-- Number of reattempts to send timed-out messages to other servers. -->
-  <numAttempts>2</numAttempts>
+  <numAttempts>4</numAttempts>
   
   <!-- How long to wait for a response before declaring a message timed-out. -->
-  <timeoutMillis>500</timeoutMillis>
+  <timeoutMillis>750</timeoutMillis>
   
   <!-- Number of GUID entries to store in the local cache.  A non-positive value
        disables caching. -->
