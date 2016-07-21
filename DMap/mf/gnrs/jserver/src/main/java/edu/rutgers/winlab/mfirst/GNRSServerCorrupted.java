@@ -263,7 +263,9 @@ public class GNRSServerCorrupted extends GNRSServer implements MessageListener{
   
   private GUID targetGUID = GUID.fromASCII("1");
   
-  private long ATTACK_RATE = 1000; //milliseconds
+  private long ATTACK_RATE = 4000; //milliseconds; they need to get to the first server in order to attack the target server
+  
+  private final transient AtomicInteger numAttackMsg = new AtomicInteger(0);
   
   private SessionParameters attackParam = null;
   
@@ -365,6 +367,7 @@ public class GNRSServerCorrupted extends GNRSServer implements MessageListener{
     while (this.running){
     	this.workers.submit(new InsertTaskCorrupted(this, attackParam, createAttackInsertMessage(targetGUID)));
     	java.util.concurrent.locks.LockSupport.parkNanos(ATTACK_RATE* 1000l);
+    	this.numAttackMsg.getAndIncrement();
     }
     
     return true;
@@ -483,6 +486,7 @@ public class GNRSServerCorrupted extends GNRSServer implements MessageListener{
 
   private void outputCDF() {
     LOG.info("Generating CDF files.");
+    LOG.debug("Sent {} attack messages.", this.numAttackMsg.toString());
     StatisticsCollector.toFiles();
   }
 
@@ -617,13 +621,12 @@ public class GNRSServerCorrupted extends GNRSServer implements MessageListener{
    *          the GUID for the message.
    * @param sequenceNumber
    *          the sequence number for the message
-   * @param generalComponents
-   *          the split line from the file.
+   * Uses bindingsForAttackMsg instead of trace-file input since insert message isn't actually letigimate
  * @return 
    */
   private InsertMessage createAttackInsertMessage(GUID guid){
 	final int msgSequenceNum = this.nextSequenceNumber.getAndIncrement(); 
-	LOG.debug("Generating Attack Message ", msgSequenceNum);
+	//LOG.debug("Generating Attack Message {}", msgSequenceNum);
 	String[] bindingValues = bindingsForAttackMsg;
 	
 	  
