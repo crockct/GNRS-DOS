@@ -78,7 +78,7 @@ public class IPv4UDPGUID_RainbowTableMapTest {
   public NetworkAddress guidAddr;
   public int k = 2; // number of replicas for each GUID
   public int count_GUID_maps_less_k = 0; // count of how many GUIDs map to a set of less than k addresses
-  public int N = 10000;
+  public int N = 1;
   
   public String mapipv4file = "rock-configs/current/map-ipv4.xml";
   public String outfile = "rainbow_table.csv";

@@ -1,0 +1,1755 @@
+[01:06:23.460] - INFO - main/IPv4UDPGUIDMapper - Finished loading prefix map.
+[01:06:23.461] - INFO - main/IPv4UDPGUIDMapper - Finished loading AS network binding values.
+[01:06:24.989] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:06:25.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:06:26.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:06:27.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:06:28.983] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:06:29.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:06:30.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:06:31.983] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:06:32.983] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:06:33.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:06:33.991] - INFO - Timer-0/BerkeleyDBStore$StatsTask - BDB Cache Misses: 0
+[01:06:34.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:06:35.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:06:36.983] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:06:37.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:06:38.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:06:39.983] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:06:40.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:06:41.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:06:42.983] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:06:43.982] - INFO - Timer-0/BerkeleyDBStore$StatsTask - BDB Cache Misses: 0
+[01:06:43.983] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:06:44.983] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:06:45.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:06:46.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:06:47.983] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:06:48.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:06:49.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:06:50.983] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:06:51.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:06:52.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:06:53.983] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:06:53.984] - INFO - Timer-0/BerkeleyDBStore$StatsTask - BDB Cache Misses: 0
+[01:06:54.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:06:55.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:06:56.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:06:57.983] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:06:58.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:06:59.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:00.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:01.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:02.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:03.983] - INFO - Timer-0/BerkeleyDBStore$StatsTask - BDB Cache Misses: 0
+[01:07:03.984] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:04.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:05.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:06.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:07.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:08.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:09.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:10.983] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:11.983] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:12.983] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:13.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:13.983] - INFO - Timer-0/BerkeleyDBStore$StatsTask - BDB Cache Misses: 0
+[01:07:14.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:15.983] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:16.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:17.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:18.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:19.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:20.983] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:21.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:22.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:23.983] - INFO - Timer-0/BerkeleyDBStore$StatsTask - BDB Cache Misses: 0
+[01:07:23.984] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:24.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:25.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:26.983] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:27.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:28.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:29.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:30.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:31.983] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:32.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:33.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:33.983] - INFO - Timer-0/BerkeleyDBStore$StatsTask - BDB Cache Misses: 0
+[01:07:34.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:35.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:36.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:37.983] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:38.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:39.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:40.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:41.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:42.983] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:43.983] - INFO - Timer-0/BerkeleyDBStore$StatsTask - BDB Cache Misses: 0
+[01:07:43.984] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:44.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:45.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:46.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:47.983] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:48.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:49.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:50.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:51.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:52.983] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:53.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:53.983] - INFO - Timer-0/BerkeleyDBStore$StatsTask - BDB Cache Misses: 0
+[01:07:54.983] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:55.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:56.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:57.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:58.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:07:59.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:00.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:01.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:02.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:03.982] - INFO - Timer-0/BerkeleyDBStore$StatsTask - BDB Cache Misses: 0
+[01:08:03.983] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:04.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:05.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:06.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:07.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:08.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:09.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:10.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:11.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:12.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:13.983] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:13.984] - INFO - Timer-0/BerkeleyDBStore$StatsTask - BDB Cache Misses: 0
+[01:08:14.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:15.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:16.983] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:17.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:18.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:19.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:20.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:21.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:22.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:23.983] - INFO - Timer-0/BerkeleyDBStore$StatsTask - BDB Cache Misses: 0
+[01:08:23.984] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:24.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:25.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:26.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:27.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:28.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:29.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:30.983] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:31.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:32.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:33.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:33.983] - INFO - Timer-0/BerkeleyDBStore$StatsTask - BDB Cache Misses: 0
+[01:08:34.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:35.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:36.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:37.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:38.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:39.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:40.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:41.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:42.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:43.982] - INFO - Timer-0/BerkeleyDBStore$StatsTask - BDB Cache Misses: 0
+[01:08:43.983] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:44.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:45.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:46.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:47.983] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:48.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:49.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:50.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:51.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:52.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:53.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:53.983] - INFO - Timer-0/BerkeleyDBStore$StatsTask - BDB Cache Misses: 0
+[01:08:54.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:55.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:56.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:57.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:58.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:08:59.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:00.983] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:01.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:02.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:03.982] - INFO - Timer-0/BerkeleyDBStore$StatsTask - BDB Cache Misses: 0
+[01:09:03.983] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:04.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:05.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:06.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:07.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:08.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:09.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:10.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:11.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:12.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:13.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:13.983] - INFO - Timer-0/BerkeleyDBStore$StatsTask - BDB Cache Misses: 0
+[01:09:14.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:15.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:16.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:17.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:18.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:19.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:20.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:21.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:22.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:23.982] - INFO - Timer-0/BerkeleyDBStore$StatsTask - BDB Cache Misses: 0
+[01:09:23.983] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:24.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:25.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:26.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:27.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:28.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:29.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:30.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:31.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:32.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:33.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:33.983] - INFO - Timer-0/BerkeleyDBStore$StatsTask - BDB Cache Misses: 0
+[01:09:34.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:35.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:36.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:37.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:38.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:39.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:40.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:41.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:42.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:43.981] - INFO - Timer-0/BerkeleyDBStore$StatsTask - BDB Cache Misses: 0
+[01:09:43.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:44.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:45.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:46.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:47.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:48.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:49.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:50.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:51.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:52.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:53.981] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:53.982] - INFO - Timer-0/BerkeleyDBStore$StatsTask - BDB Cache Misses: 0
+[01:09:54.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:55.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:56.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:57.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:58.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:09:59.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:10:00.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:10:01.982] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:10:02.408] - INFO - Thread-2/GNRSServer - Generating CDF files.
+[01:10:05.976] - INFO - main/IPv4UDPGUIDMapper - Finished loading prefix map.
+[01:10:05.977] - INFO - main/IPv4UDPGUIDMapper - Finished loading AS network binding values.
+[01:10:07.484] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:10:08.477] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:10:09.477] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+15.000 per second (Q: 32,819.9 us, P: 489.7 us, R: 0.0 us, S: 0.0 us, T: 33,309.6 us)
+==Inserts==
+9.000 per second (Q: 25,356.4 us, P: 3,407.7 us, R: 0.0 us, S: 0.0 us, T: 28,764.1 us)
+Outstanding responses: 0
+
+[01:10:10.477] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:10:11.477] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:10:12.477] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:10:13.477] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:10:14.478] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:10:15.477] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:10:16.477] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:10:16.487] - INFO - Timer-0/BerkeleyDBStore$StatsTask - BDB Cache Misses: 18
+[01:10:17.476] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:10:18.477] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:10:19.477] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[01:10:19.861] - INFO - Thread-2/GNRSServer - Generating CDF files.
+[01:10:19.861] - INFO - Thread-2/StatisticsCollector - Creating sample-configs/single-server/stats/ins-total.csv
+[01:10:19.877] - INFO - Thread-2/StatisticsCollector - Creating sample-configs/single-server/stats/ins-queue.csv
+[01:10:19.887] - INFO - Thread-2/StatisticsCollector - Creating sample-configs/single-server/stats/lkp-proc.csv
+[01:10:19.897] - INFO - Thread-2/StatisticsCollector - Creating sample-configs/single-server/stats/ins-resp.csv
+[01:10:19.906] - INFO - Thread-2/StatisticsCollector - Creating sample-configs/single-server/stats/lkp-queue.csv
+[01:10:19.915] - INFO - Thread-2/StatisticsCollector - Creating sample-configs/single-server/stats/ins-remote.csv
+[01:10:19.923] - INFO - Thread-2/StatisticsCollector - Creating sample-configs/single-server/stats/lkp-resp.csv
+[01:10:19.932] - INFO - Thread-2/StatisticsCollector - Creating sample-configs/single-server/stats/lkp-total.csv
+[01:10:19.940] - INFO - Thread-2/StatisticsCollector - Creating sample-configs/single-server/stats/lkp-remote.csv
+[01:10:19.947] - INFO - Thread-2/StatisticsCollector - Creating sample-configs/single-server/stats/ins-proc.csv
+[19:06:42.455] - DEBUG - main/GNRSServer - ------------------------
+[19:06:42.458] - DEBUG - main/GNRSServer - GNRS Server starting up.
+[19:06:42.458] - DEBUG - main/GNRSServer - ------------------------
+[19:06:42.591] - DEBUG - main/GNRSServer - Finished parsing configuration file.
+[19:06:42.606] - INFO - main/IPv4UDPGUIDMapper - Finished loading prefix map.
+[19:06:42.607] - INFO - main/IPv4UDPGUIDMapper - Finished loading AS network binding values.
+[19:06:43.163] - DEBUG - main/GNRSServer - GNRS server object successfully created.
+[19:06:44.173] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[19:06:45.164] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[19:06:46.165] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[19:06:47.164] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[19:06:48.164] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[19:06:49.165] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[19:06:50.164] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[19:06:51.164] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[19:06:52.165] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[19:06:53.164] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[19:06:53.170] - INFO - Timer-0/BerkeleyDBStore$StatsTask - BDB Cache Misses: 0
+[19:06:54.165] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[19:06:55.164] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[19:06:56.164] - INFO - Timer-0/GNRSServer$StatsTask - 
+==Lookups==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+==Inserts==
+0.000 per second (Q: 0.0 us, P: 0.0 us, R: 0.0 us, S: 0.0 us, T: 0.0 us)
+Outstanding responses: 0
+
+[19:06:56.524] - INFO - Thread-2/GNRSServer - Generating CDF files.

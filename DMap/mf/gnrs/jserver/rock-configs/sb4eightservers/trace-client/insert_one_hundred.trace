@@ -1,0 +1,134 @@
+# Example trace file for GNRS client.
+# 
+# Each line represents a message that will be sent to the GNRS server by the
+# client.  Depending on the operation involved, different lines will have
+# different numbers of parameters.
+# 
+# Insert a number of GUID -> Network Address bindings.  These will serve as
+# examples for inserting, but also as values to look-up later in the trace.
+#
+# Format
+# <Seq. No.> I <GUID> <Network Address>,<TTL>,<Weight>
+#
+# * Seq. No. - Unique identifier for the message.
+# * I - Insert message. Always "I"
+# * GUID - GUID value to insert/bind
+# * Network Address - Bound value for the GUID
+# * TTL - Maximum lifetime of binding (in milliseconds)
+# * Weight - Undefined value for prioritizing bindings
+
+1 I 1 1,99999,1
+2 I 2 1,99999,1
+3 I 3 1,99999,1
+4 I 4 1,99999,1
+5 I 5 1,99999,1
+6 I 6 1,99999,1
+7 I 7 1,99999,1
+8 I 8 1,99999,1
+9 I 9 1,99999,1
+10 I 10 1,99999,1
+11 I 11 1,99999,1
+12 I 12 1,99999,1
+13 I 13 1,99999,1
+14 I 14 1,99999,1
+15 I 15 1,99999,1
+16 I 16 1,99999,1
+17 I 17 1,99999,1
+18 I 18 1,99999,1
+19 I 19 1,99999,1
+20 I 20 1,99999,1
+21 I 21 1,99999,1
+22 I 22 1,99999,1
+23 I 23 1,99999,1
+24 I 24 1,99999,1
+25 I 25 1,99999,1
+26 I 26 1,99999,1
+27 I 27 1,99999,1
+28 I 28 1,99999,1
+29 I 29 1,99999,1
+30 I 30 1,99999,1
+31 I 31 1,99999,1
+32 I 32 1,99999,1
+33 I 33 1,99999,1
+34 I 34 1,99999,1
+35 I 35 1,99999,1
+36 I 36 1,99999,1
+37 I 37 1,99999,1
+38 I 38 1,99999,1
+39 I 39 1,99999,1
+40 I 40 1,99999,1
+41 I 41 1,99999,1
+42 I 42 1,99999,1
+43 I 43 1,99999,1
+44 I 44 1,99999,1
+45 I 45 1,99999,1
+46 I 46 1,99999,1
+47 I 47 1,99999,1
+48 I 48 1,99999,1
+49 I 49 1,99999,1
+50 I 50 1,99999,1
+51 I 51 1,99999,1
+52 I 52 1,99999,1
+53 I 53 1,99999,1
+54 I 54 1,99999,1
+55 I 55 1,99999,1
+56 I 56 1,99999,1
+57 I 57 1,99999,1
+58 I 58 1,99999,1
+59 I 59 1,99999,1
+60 I 60 1,99999,1
+61 I 61 1,99999,1
+62 I 62 1,99999,1
+63 I 63 1,99999,1
+64 I 64 1,99999,1
+65 I 65 1,99999,1
+66 I 66 1,99999,1
+67 I 67 1,99999,1
+68 I 68 1,99999,1
+69 I 69 1,99999,1
+70 I 70 1,99999,1
+71 I 71 1,99999,1
+72 I 72 1,99999,1
+73 I 73 1,99999,1
+74 I 74 1,99999,1
+75 I 75 1,99999,1
+76 I 76 1,99999,1
+77 I 77 1,99999,1
+78 I 78 1,99999,1
+79 I 79 1,99999,1
+80 I 80 1,99999,1
+81 I 81 1,99999,1
+82 I 82 1,99999,1
+83 I 83 1,99999,1
+84 I 84 1,99999,1
+85 I 85 1,99999,1
+86 I 86 1,99999,1
+87 I 87 1,99999,1
+88 I 88 1,99999,1
+89 I 89 1,99999,1
+90 I 90 1,99999,1
+91 I 91 1,99999,1
+92 I 92 1,99999,1
+93 I 93 1,99999,1
+94 I 94 1,99999,1
+95 I 95 1,99999,1
+96 I 96 1,99999,1
+97 I 97 1,99999,1
+98 I 98 1,99999,1
+99 I 99 1,99999,1
+100 I 100 1,99999,1
+
+
+# Query a GUID binding from the server. These serve as example of both
+# successful and unsuccessful lookups.  A lookup failure can occur for many
+# reasons, but the client should at least try to emulate those failures that
+# it can (missing GUID, expired bindings, etc.)
+#
+# Format
+# <Seq. No.> Q <GUID>
+#
+# * Seq. No. - Unique identifier for the message. Common to continue from
+#              above (or at least not collide).
+# * Q - Query message. Always "Q"
+# * GUID - The GUID value to query
+

@@ -261,7 +261,8 @@ public class GNRSServerCorrupted extends GNRSServer implements MessageListener{
   /** Used to generate Insert messages for attack */
   private AtomicInteger nextSequenceNumber = new AtomicInteger(1);
   
-  private GUID targetGUID = GUID.fromASCII("1");
+  private GUID targetGUID = GUID.fromASCII("1"); // maps to target server, 10.14.1.2:5000, using both 4 or 8 servers on sb4
+
   
   private long ATTACK_RATE = 4000; //milliseconds; they need to get to the first server in order to attack the target server
   
