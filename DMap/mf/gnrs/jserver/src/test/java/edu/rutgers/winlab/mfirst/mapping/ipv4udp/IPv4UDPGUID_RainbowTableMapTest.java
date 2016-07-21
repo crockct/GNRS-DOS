@@ -59,12 +59,15 @@ import edu.rutgers.winlab.mfirst.net.ipv4udp.IPv4UDPAddress;
 import edu.rutgers.winlab.mfirst.net.ipv4udp.NetworkAddressMapper;
 
 /**
+ * Makes Rainbow Table for first N GUIDs
+ * Parameters are hard-coded and need to match those of the system you're generating for
+ * 
  * @author Colleen Rock
  */
-public class Rock_IPv4UDPGUIDMapTest {
+public class IPv4UDPGUID_RainbowTableMapTest {
 
   static final Logger LOG = LoggerFactory
-      .getLogger(Rock_IPv4UDPGUIDMapTest.class);
+      .getLogger(IPv4UDPGUID_RainbowTableMapTest.class);
 
   public GUID guid;
   public static final byte[] GUID_BYTE = new byte[] { 0x0, 0x1, 0x2, 0x3, 0x4,
@@ -73,12 +76,12 @@ public class Rock_IPv4UDPGUIDMapTest {
 
   public NetworkAddress ipv4Addr5;
   public NetworkAddress guidAddr;
-  public int k = 3;
-  public int count_GUID_maps_less_three = 0;
+  public int k = 2; // number of replicas for each GUID
+  public int count_GUID_maps_less_k = 0; // count of how many GUIDs map to a set of less than k addresses
+  public int N = 10000;
   
-  public int N = 100000;
-  
-  final Random rand = new Random();
+  public String mapipv4file = "rock-configs/current/map-ipv4.xml";
+  public String outfile = "rainbow_table.csv";
 
   @Rule
   public MethodRule watchman = new TestWatchman() {
@@ -98,27 +101,26 @@ public class Rock_IPv4UDPGUIDMapTest {
    */
   @Test
   public void testGetNMappings() throws IOException {
-	  FileWriter writer = new FileWriter("rainbow_table.csv");
+	  FileWriter writer = new FileWriter(outfile);
 	  for (int i = 0; i < N; i++){
 		  try{
-			  //this.guid = GUID.fromASCII("" + rand.nextInt(1000000));
 			  this.guid = GUID.fromASCII(Integer.toString(i+1));
 			  writer.append(this.guid.toString());
-			  this.ipv4Addr5 = IPv4UDPAddress.fromASCII("127.0.0.1:5005");
+			  this.ipv4Addr5 = IPv4UDPAddress.fromASCII("127.0.0.1:5005"); //localhost
 		} catch (UnsupportedEncodingException e) {
 		  fail("Unable to decode from ASCII.");
 		}
       this.guidAddr = new NetworkAddress(AddressType.GUID, new byte[] {});
 		 
 	    try {
-	      IPv4UDPGUIDMapper mapper = new IPv4UDPGUIDMapper("rock-configs/baseline/map-ipv4.xml");
+	      IPv4UDPGUIDMapper mapper = new IPv4UDPGUIDMapper(mapipv4file);
 	      Collection<NetworkAddress> mapped = mapper.getMapping(guid, k,
 	          AddressType.INET_4_UDP);
 	      Assert.assertNotNull(mapped);
 	      Iterator<NetworkAddress> iter = mapped.iterator();
 	      //Assert.assertEquals(k, mapped.size()); two valid IPs announced by same AS? 
 	      if (mapped.size() < k){
-	    	  count_GUID_maps_less_three++;
+	    	  count_GUID_maps_less_k++;
 	      }
 	      
 	      while (iter.hasNext()){
@@ -134,44 +136,9 @@ public class Rock_IPv4UDPGUIDMapTest {
 	}
 	writer.flush();
 	writer.close();
-	System.out.println(Integer.toString(count_GUID_maps_less_three) + "/" + Integer.toString(N) + " mapped to less than " + Integer.toString(k) + " ASs.");
+	System.out.println(Integer.toString(count_GUID_maps_less_k) + "/" + Integer.toString(N) + " mapped to less than " + Integer.toString(k) + " ASs.");
   }
   
-  /**
-   * Test method for
-   * {@link edu.rutgers.winlab.mfirst.mapping.ipv4udp.IPv4UDPGUIDMapper#getMapping(edu.rutgers.winlab.mfirst.GUID, int, edu.rutgers.winlab.mfirst.net.AddressType[])}
-   * .
-   
-  @Test
-  public void testGetMapping() {
-	this.guid = new GUID();
-	this.guid.setBinaryForm(GUID_BYTE);
-	System.out.println(this.guid.toString());
-
-	try {
-	  this.ipv4Addr5 = IPv4UDPAddress.fromASCII("127.0.0.1:5005");
-	    } catch (UnsupportedEncodingException e) {
-	      fail("Unable to decode from ASCII.");
-	    }
-	  this.guidAddr = new NetworkAddress(AddressType.GUID, new byte[] {});
-	 
-    try {
-      IPv4UDPGUIDMapper mapper = new IPv4UDPGUIDMapper("rock-configs/baseline/map-ipv4.xml");
-      Collection<NetworkAddress> mapped = mapper.getMapping(guid, k,
-          AddressType.INET_4_UDP);
-      Assert.assertNotNull(mapped);
-      Iterator<NetworkAddress> iter = mapped.iterator();
-      Assert.assertEquals(k, mapped.size());
-      while (iter.hasNext()){
-    	  NetworkAddress netAddr = iter.next();
-    	  System.out.println(netAddr.toString());
-      }
-    } catch (IOException e) {
-      // TODO Auto-generated catch block
-      e.printStackTrace();
-    }
-  }
-  */
 }
 
 
