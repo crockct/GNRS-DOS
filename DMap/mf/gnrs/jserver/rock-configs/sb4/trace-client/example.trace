@@ -1,0 +1,64 @@
+# Example trace file for GNRS client.
+# 
+# Each line represents a message that will be sent to the GNRS server by the
+# client.  Depending on the operation involved, different lines will have
+# different numbers of parameters.
+# 
+# Insert a number of GUID -> Network Address bindings.  These will serve as
+# examples for inserting, but also as values to look-up later in the trace.
+#
+# Format
+# <Seq. No.> I <GUID> <Network Address>,<TTL>,<Weight>
+#
+# * Seq. No. - Unique identifier for the message.
+# * I - Insert message. Always "I"
+# * GUID - GUID value to insert/bind
+# * Network Address - Bound value for the GUID
+# * TTL - Maximum lifetime of binding (in milliseconds)
+# * Weight - Undefined value for prioritizing bindings
+
+1 I 1 1,99999,1 # Comments may also be placed at the ends of lines.
+2 I 2 2,99999,1 # Anything after a "#" will be ignored by the client.
+3 I 3 3,99999,1,19,88888,2 # This line has a second binding
+4 I 4 4,99999,1
+5 I 5 5,99999,1
+6 I 6 6,99999,1
+7 I 7 7,99999,1
+8 I 8 8,99999,1
+9 I 9 9,99999,1
+
+# Query a GUID binding from the server. These serve as example of both
+# successful and unsuccessful lookups.  A lookup failure can occur for many
+# reasons, but the client should at least try to emulate those failures that
+# it can (missing GUID, expired bindings, etc.)
+#
+# Format
+# <Seq. No.> Q <GUID>
+#
+# * Seq. No. - Unique identifier for the message. Common to continue from
+#              above (or at least not collide).
+# * Q - Query message. Always "Q"
+# * GUID - The GUID value to query
+#
+# The following queries should succeed, assuming that the insertions above
+# also succeeded.
+
+10 Q 1
+11 Q 2
+12 Q 3
+13 Q 4
+14 Q 5
+15 Q 6
+16 Q 7
+17 Q 8
+18 Q 9
+
+# The following queries should fail because the GUID values were never
+# inserted.  They may succeed if the server has bindings from another client.
+
+19 Q 100
+20 Q 101
+21 Q 102
+22 Q 103
+23 Q 104
+24 Q 105
