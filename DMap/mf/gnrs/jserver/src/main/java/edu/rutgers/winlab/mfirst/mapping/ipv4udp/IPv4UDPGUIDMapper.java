@@ -105,6 +105,17 @@ public class IPv4UDPGUIDMapper implements GUIDMapper {
     this.hasher = new MessageDigestHasher(config.getHashAlgorithm());
 
   }
+  
+  /** @author Colleen
+   * return all ASs / server addresses for attack
+   */
+  public Collection<NetworkAddress> getAll() {
+	  Collection<NetworkAddress> allAddrs = new ArrayList<NetworkAddress>();
+	  for (InetSocketAddress ipAddr : this.asAddresses.values()){
+		  allAddrs.add(IPv4UDPAddress.fromInetSocketAddress(ipAddr));
+	  }
+	  return allAddrs;
+  }
 
   /**
    * Loads this Mapper's configuration file from the filename provided.
