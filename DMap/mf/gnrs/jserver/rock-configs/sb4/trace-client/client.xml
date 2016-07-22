@@ -1,6 +1,6 @@
 <edu.rutgers.winlab.mfirst.client.Configuration>
   <!-- The hostname or IP address of the GNRS server -->
-  <serverHost>10.14.1.14</serverHost>
+  <serverHost>10.14.1.2</serverHost>
   <!-- The UDP port on which the server is listening for messages -->
   <serverPort>5000</serverPort>
   <!-- The UDP port that client should use for responses from the server -->
