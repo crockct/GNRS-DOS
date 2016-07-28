@@ -264,7 +264,7 @@ public class GNRSServerCorrupted extends GNRSServer implements MessageListener{
   private GUID targetGUID = GUID.fromASCII("1"); // maps to target server, 10.14.1.2:5000, using both 4 or 8 servers on sb4
 
   
-  private long ATTACK_RATE = 8000; //milliseconds; really attack DELAY time. packets sent every ATTACK_RATE miliseconds
+  private long ATTACK_RATE = 12000; //milliseconds; really attack DELAY time. packets sent every ATTACK_RATE miliseconds
   //they need to get to the first server in order to attack the target server
   
   private final transient AtomicInteger numAttackMsg = new AtomicInteger(0);
