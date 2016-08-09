@@ -1,0 +1,40 @@
+  1469802704.618            wireshark version                 = 2.0.4
+  1469802704.618            wsgd generation data :
+  1469802704.618            - wireshark compilation version   = 2.0.0
+  1469802704.618            - WIRESHARK_VERSION_NUMBER        = 20000
+  1469802704.618            - compilation date                = Oct 17 2015
+  1469802704.618            - compiler                        = Visual C++ 1600
+  1469802704.618            get_progfile_dir     = C:\Program Files\Wireshark
+  1469802704.618            get_plugin_dir       = C:\Program Files\Wireshark\plugins\2.0.4
+  1469802704.618            get_datafile_dir     = C:\Program Files\Wireshark
+  1469802704.618            get_systemfile_dir   = C:\Program Files\Wireshark
+  1469802704.618            get_profiles_dir     = C:\Users\Colleen\AppData\Roaming\Wireshark\profiles
+  1469802704.618            get_persdatafile_dir = C:\Users\Colleen\Documents
+  1469802704.618            locale LC_ALL         = C
+  1469802704.618            locale LC_COLLATE     = C
+  1469802704.618            locale LC_CTYPE       = C
+  1469802704.618            locale LC_MONETARY    = C
+  1469802704.618            locale LC_NUMERIC     = C
+  1469802704.619            locale LC_TIME        = C
+  1469802704.619      Enter cpp_proto_register_generic 
+  1469802704.619      Enter get_files_in_dir dir_name=C:\Users\Colleen\AppData\Roaming\Wireshark\profiles  begin_file_name=  end_file_name=.wsgd
+E 1469802704.619            filter C:\Users\Colleen\AppData\Roaming\Wireshark\profiles\*.wsgd not found
+  1469802704.619      Leave get_files_in_dir
+  1469802704.619      Enter get_files_in_dir dir_name=C:\Users\Colleen\Documents  begin_file_name=  end_file_name=.wsgd
+E 1469802704.619            filter C:\Users\Colleen\Documents\*.wsgd not found
+  1469802704.619      Leave get_files_in_dir
+  1469802704.619      Enter get_files_in_dir dir_name=C:\Program Files\Wireshark  begin_file_name=  end_file_name=.wsgd
+E 1469802704.619            filter C:\Program Files\Wireshark\*.wsgd not found
+  1469802704.619      Leave get_files_in_dir
+  1469802704.619      Enter get_files_in_dir dir_name=C:\Program Files\Wireshark\plugins\2.0.4  begin_file_name=  end_file_name=.wsgd
+E 1469802704.619            filter C:\Program Files\Wireshark\plugins\2.0.4\*.wsgd not found
+  1469802704.619      Leave get_files_in_dir
+  1469802704.619      Enter get_files_in_dir dir_name=C:\Program Files\Wireshark  begin_file_name=  end_file_name=.wsgd
+E 1469802704.619            filter C:\Program Files\Wireshark\*.wsgd not found
+  1469802704.619      Leave get_files_in_dir
+  1469802704.619      Enter get_files_in_dir dir_name=.  begin_file_name=  end_file_name=.wsgd
+E 1469802704.619            filter .\*.wsgd not found
+  1469802704.619      Leave get_files_in_dir
+  1469802704.619      Enter set_max_nb_of_protocol_data 0
+  1469802704.619      Leave set_max_nb_of_protocol_data
+  1469802704.619      Leave cpp_proto_register_generic
